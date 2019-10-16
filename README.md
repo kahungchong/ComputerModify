@@ -1,2 +1,2 @@
-# LinuxModify
-Some modification on Linux system
+# Computer Modify
+Some modification on computer including keyboard or theme.
