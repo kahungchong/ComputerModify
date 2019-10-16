@@ -6,7 +6,7 @@ SendMode Input
 #SingleInstance force
 
 
-options := {delay: 150, timeout: 300, doublePress: -1, swap_backtick_escape: false, mode: "esdf"}
+options := {delay: 100, timeout: 300, doublePress: -1, swap_backtick_escape: false, mode: "esdf"}
 loop %0% {
 	arg := %A_Index%
 	argSplit := StrSplit(arg, "=")
@@ -132,5 +132,5 @@ dual := new Dual
 *]::dual.comboKey({F22: "Pause"})
 
 *e::dual.comboKey({F22: "Escape"})
-*`::dual.comboKey("Escape", {F22: "``"})
+;*`::dual.comboKey("Escape", {F22: "``"})
 #If
