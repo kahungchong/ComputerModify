@@ -52,5 +52,10 @@ Switch capslock and left ctrl, and make capslock to switch input method
 ## Apperances for gnome
 [MacOS style](https://zhuanlan.zhihu.com/p/37852274)
 
+## Scale on 4k screen
+
+1. `xrandr` to see monitor version
+2. `xrandr --output DP-2 --scale 0.6x0.6`, where `DP-2` is name of monitor
+
         
 
